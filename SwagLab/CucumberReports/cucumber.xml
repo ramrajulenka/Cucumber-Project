@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="12" time="32.11455">
+    <testcase classname="Login Page Test" name="verify login page with valid username and password" time="3.788085">
+        <system-out><![CDATA[Given login page should open................................................passed
+When enter valid Username and password......................................passed
+When click button...........................................................passed
+Then home page display......................................................passed
+Then Logout.................................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Page Test" name="verify loginPage with Invalid Data" time="2.405786">
+        <system-out><![CDATA[Given login page should open................................................passed
+When userName and password rama and admin123................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Page Test" name="verify loginPage with Invalid Data 2" time="2.246752">
+        <system-out><![CDATA[Given login page should open................................................passed
+When userName and password Admin and rama123................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Page Test" name="verify loginPage with Invalid Data 3" time="2.394137">
+        <system-out><![CDATA[Given login page should open................................................passed
+When userName and password admin and admin..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Page Test" name="verify loginPage with Invalid Data 4" time="2.439226">
+        <system-out><![CDATA[Given login page should open................................................passed
+When userName and password  and admin123....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Page Test" name="verify loginPage with Invalid Data 5" time="2.421089">
+        <system-out><![CDATA[Given login page should open................................................passed
+When userName and password Admin and .......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="verify product by name" name="_2" time="2.529235">
+        <system-out><![CDATA[Given Login.................................................................passed
+When click product by name Sauce Labs Backpack..............................passed
+And verify Clicking Product Sauce Labs Backpack.............................passed
+Then Logout ProductPage.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="verify product by name" name="_3" time="2.759795">
+        <system-out><![CDATA[Given Login.................................................................passed
+When click product by name Sauce Labs Bike Light............................passed
+And verify Clicking Product Sauce Labs Bike Light...........................passed
+Then Logout ProductPage.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="verify product by name" name="_4" time="2.739354">
+        <system-out><![CDATA[Given Login.................................................................passed
+When click product by name Sauce Labs Bolt T-Shirt..........................passed
+And verify Clicking Product Sauce Labs Bolt T-Shirt.........................passed
+Then Logout ProductPage.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="verify product by name" name="_5" time="2.818785">
+        <system-out><![CDATA[Given Login.................................................................passed
+When click product by name Sauce Labs Fleece Jacket.........................passed
+And verify Clicking Product Sauce Labs Fleece Jacket........................passed
+Then Logout ProductPage.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="verify product by name" name="_6" time="2.858204">
+        <system-out><![CDATA[Given Login.................................................................passed
+When click product by name Sauce Labs Onesie................................passed
+And verify Clicking Product Sauce Labs Onesie...............................passed
+Then Logout ProductPage.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="verify product by name" name="_7" time="2.714102">
+        <system-out><![CDATA[Given Login.................................................................passed
+When click product by name Test.allTheThings() T-Shirt (Red)................passed
+And verify Clicking Product Test.allTheThings() T-Shirt (Red)...............passed
+Then Logout ProductPage.....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

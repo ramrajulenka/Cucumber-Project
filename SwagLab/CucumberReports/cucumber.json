@@ -1,0 +1,854 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3149350900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "login page should open",
+            "match": {
+              "location": "LoginTestCases.login_page_should_open()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-14T11:41:21.728Z",
+        "line": 5,
+        "name": "verify login page with valid username and password",
+        "description": "",
+        "id": "login-page-test;verify-login-page-with-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 194075400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter valid Username and password",
+            "match": {
+              "location": "LoginTestCases.enter_valid_Username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95818400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click button",
+            "match": {
+              "location": "LoginTestCases.click_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30691400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "home page display",
+            "match": {
+              "location": "LoginTestCases.home_page_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 276260500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Logout",
+            "match": {
+              "location": "LoginTestCases.logout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2065704800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "login page should open",
+            "match": {
+              "location": "LoginTestCases.login_page_should_open()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-14T11:41:25.523Z",
+        "line": 14,
+        "name": "verify loginPage with Invalid Data",
+        "description": "",
+        "id": "login-page-test;verify-loginpage-with-invalid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 331587400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "userName and password rama and admin123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rama",
+                  "offset": 22
+                },
+                {
+                  "val": "admin123",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginTestCases.userName_and_password_and(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1955239400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "login page should open",
+            "match": {
+              "location": "LoginTestCases.login_page_should_open()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-14T11:41:27.931Z",
+        "line": 15,
+        "name": "verify loginPage with Invalid Data",
+        "description": "",
+        "id": "login-page-test;verify-loginpage-with-invalid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 288752200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "userName and password Admin and rama123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 22
+                },
+                {
+                  "val": "rama123",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginTestCases.userName_and_password_and(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2058551600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "login page should open",
+            "match": {
+              "location": "LoginTestCases.login_page_should_open()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-14T11:41:30.179Z",
+        "line": 16,
+        "name": "verify loginPage with Invalid Data",
+        "description": "",
+        "id": "login-page-test;verify-loginpage-with-invalid-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 333344800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "userName and password admin and admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 22
+                },
+                {
+                  "val": "admin",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginTestCases.userName_and_password_and(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2124940800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "login page should open",
+            "match": {
+              "location": "LoginTestCases.login_page_should_open()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-14T11:41:32.577Z",
+        "line": 17,
+        "name": "verify loginPage with Invalid Data",
+        "description": "",
+        "id": "login-page-test;verify-loginpage-with-invalid-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 311550800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "userName and password  and admin123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 22
+                },
+                {
+                  "val": "admin123",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginTestCases.userName_and_password_and(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2092720200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "login page should open",
+            "match": {
+              "location": "LoginTestCases.login_page_should_open()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-14T11:41:35.018Z",
+        "line": 18,
+        "name": "verify loginPage with Invalid Data",
+        "description": "",
+        "id": "login-page-test;verify-loginpage-with-invalid-data;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 326465700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "userName and password Admin and ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 22
+                },
+                {
+                  "val": "",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginTestCases.userName_and_password_and(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Login Page Test",
+    "description": "",
+    "id": "login-page-test",
+    "keyword": "Feature",
+    "uri": "file:Features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2166274600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Login",
+            "match": {
+              "location": "ProductVerifyByName.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-14T11:41:37.442Z",
+        "line": 10,
+        "name": "",
+        "description": "",
+        "id": "verify-product-by-name;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 63171600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click product by name Sauce Labs Backpack",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sauce Labs Backpack",
+                  "offset": 22
+                }
+              ],
+              "location": "ProductVerifyByName.click_product_by_nameSauce_Labs_Backpack(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27115400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify Clicking Product Sauce Labs Backpack",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sauce Labs Backpack",
+                  "offset": 24
+                }
+              ],
+              "location": "ProductVerifyByName.verify_Clicking_Product_Sauce_Labs_Backpack(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263095900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Logout ProductPage",
+            "match": {
+              "location": "ProductVerifyByName.logout_ProductPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2381812200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Login",
+            "match": {
+              "location": "ProductVerifyByName.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-14T11:41:39.974Z",
+        "line": 11,
+        "name": "",
+        "description": "",
+        "id": "verify-product-by-name;;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 60140100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click product by name Sauce Labs Bike Light",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sauce Labs Bike Light",
+                  "offset": 22
+                }
+              ],
+              "location": "ProductVerifyByName.click_product_by_nameSauce_Labs_Backpack(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32980100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify Clicking Product Sauce Labs Bike Light",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sauce Labs Bike Light",
+                  "offset": 24
+                }
+              ],
+              "location": "ProductVerifyByName.verify_Clicking_Product_Sauce_Labs_Backpack(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281884700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Logout ProductPage",
+            "match": {
+              "location": "ProductVerifyByName.logout_ProductPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2343180700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Login",
+            "match": {
+              "location": "ProductVerifyByName.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-14T11:41:42.736Z",
+        "line": 12,
+        "name": "",
+        "description": "",
+        "id": "verify-product-by-name;;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 64272600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click product by name Sauce Labs Bolt T-Shirt",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sauce Labs Bolt T-Shirt",
+                  "offset": 22
+                }
+              ],
+              "location": "ProductVerifyByName.click_product_by_nameSauce_Labs_Backpack(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24452800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify Clicking Product Sauce Labs Bolt T-Shirt",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sauce Labs Bolt T-Shirt",
+                  "offset": 24
+                }
+              ],
+              "location": "ProductVerifyByName.verify_Clicking_Product_Sauce_Labs_Backpack(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 304398200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Logout ProductPage",
+            "match": {
+              "location": "ProductVerifyByName.logout_ProductPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2470537600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Login",
+            "match": {
+              "location": "ProductVerifyByName.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-14T11:41:45.477Z",
+        "line": 13,
+        "name": "",
+        "description": "",
+        "id": "verify-product-by-name;;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 65560500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click product by name Sauce Labs Fleece Jacket",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sauce Labs Fleece Jacket",
+                  "offset": 22
+                }
+              ],
+              "location": "ProductVerifyByName.click_product_by_nameSauce_Labs_Backpack(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25302900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify Clicking Product Sauce Labs Fleece Jacket",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sauce Labs Fleece Jacket",
+                  "offset": 24
+                }
+              ],
+              "location": "ProductVerifyByName.verify_Clicking_Product_Sauce_Labs_Backpack(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254753200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Logout ProductPage",
+            "match": {
+              "location": "ProductVerifyByName.logout_ProductPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2467114000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Login",
+            "match": {
+              "location": "ProductVerifyByName.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-14T11:41:48.297Z",
+        "line": 14,
+        "name": "",
+        "description": "",
+        "id": "verify-product-by-name;;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 70512300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click product by name Sauce Labs Onesie",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sauce Labs Onesie",
+                  "offset": 22
+                }
+              ],
+              "location": "ProductVerifyByName.click_product_by_nameSauce_Labs_Backpack(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29272800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify Clicking Product Sauce Labs Onesie",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sauce Labs Onesie",
+                  "offset": 24
+                }
+              ],
+              "location": "ProductVerifyByName.verify_Clicking_Product_Sauce_Labs_Backpack(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 288411000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Logout ProductPage",
+            "match": {
+              "location": "ProductVerifyByName.logout_ProductPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2313284800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Login",
+            "match": {
+              "location": "ProductVerifyByName.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-14T11:41:51.158Z",
+        "line": 15,
+        "name": "",
+        "description": "",
+        "id": "verify-product-by-name;;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 59558200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click product by name Test.allTheThings() T-Shirt (Red)",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test.allTheThings() T-Shirt (Red)",
+                  "offset": 22
+                }
+              ],
+              "location": "ProductVerifyByName.click_product_by_nameSauce_Labs_Backpack(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42385200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify Clicking Product Test.allTheThings() T-Shirt (Red)",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test.allTheThings() T-Shirt (Red)",
+                  "offset": 24
+                }
+              ],
+              "location": "ProductVerifyByName.verify_Clicking_Product_Sauce_Labs_Backpack(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 295647300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Logout ProductPage",
+            "match": {
+              "location": "ProductVerifyByName.logout_ProductPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verify product by name",
+    "description": "",
+    "id": "verify-product-by-name",
+    "keyword": "Feature",
+    "uri": "file:Features/ProductVerify.feature",
+    "tags": []
+  }
+]
